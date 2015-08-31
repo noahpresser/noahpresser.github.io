@@ -1,0 +1,67 @@
+body {
+  padding-top: 50px;
+  background-color:white;
+}
+alR{
+    text-align:right;
+}
+span {
+    font-family:Arial;
+    font-size:larger;
+}
+span2 {
+    font-family:Arial;
+    font-size:larger;
+    color:darkblue;
+    text-align:match-parent;
+}
+span3 {
+    font-family:Arial;
+    font-size:medium;
+    color:purple;
+}
+span4 {
+    font-family:Arial;
+    font-size:large;
+    color:purple;
+}
+
+h2  {
+	font-family:Arial;
+    color:blue;
+	font-size: 3em;
+    letter-spacing: .1em;
+}
+
+.about-pics {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+#about{
+	background-color:#00ff90;	
+	padding: 25px 10px;
+	text-align: center;
+    background-image:url("http://png.clipart.me/graphics/thumbs/859/seamless-ornamental-pattern-background-for-continuous-replicate-see-more-seamless-backgrounds-in-my-portfolio_85945375.jpg")
+        
+}
+#experience 
+{
+   background-color:#00ff90;	
+	padding: 25px 10px;
+	text-align: center;
+    background-image:url("http://png.clipart.me/graphics/thumbs/859/seamless-ornamental-pattern-background-for-continuous-replicate-see-more-seamless-backgrounds-in-my-portfolio_85945375.jpg")
+}
+#hobbies
+{
+    background-color:#00ff90;	
+	padding: 25px 10px;
+	text-align: center;
+    background-image:url("http://png.clipart.me/graphics/thumbs/859/seamless-ornamental-pattern-background-for-continuous-replicate-see-more-seamless-backgrounds-in-my-portfolio_85945375.jpg")
+}
+
+
