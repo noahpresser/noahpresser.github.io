@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Naruto Chess!!</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!--My Css Stylesheet-->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+
+    <link rel="stylesheet" href="css/chessboard.css" />
+
+    <!--JQUery???-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="js/chessboard.js"></script>
+
+  
+</head>
+<body style="background-color:lightblue">
+    <!-- Me creating something fun -->
+    <section id="Chess">
+        
+        <div class="container" style="width:100%; text-align:center">
+            <div id="board1" style="width:392px">
+                <script>
+                    $(document).ready(function () {
+                        var board1 = ChessBoard('board1', {
+                            draggable: true,
+                            dropOffBoard: 'trash',
+                            sparePieces: true
+                        });
+                        $('#startBtn').on('click', board1.start);
+                        $('#clearBtn').on('click', board1.clear);
+                    });
+                </script>
+            </div> 
+            <input type="button" id="startBtn" value="Start" />
+            <input type="button" id="clearBtn" value="Clear" />
+        </div>
+
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
