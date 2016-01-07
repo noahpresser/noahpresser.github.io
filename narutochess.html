@@ -38,8 +38,10 @@
                     $(document).ready(function () {
                         var board1 = ChessBoard('board1', {
                             draggable: true,
-                            dropOffBoard: 'trash',
-                            sparePieces: true
+                            position: 'start',
+                            onDragStart: onDragStart,
+                            onDrop: onDrop,
+                            onSnapEnd: onSnapEnd
                         });
                         $('#startBtn').on('click', board1.start);
                         $('#clearBtn').on('click', board1.clear);
