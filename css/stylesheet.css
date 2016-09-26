@@ -15,7 +15,24 @@ span2 {
     color:darkblue;
     text-align:match-parent;
 }
+span2Large {
+    font-family:Arial;
+    font-size:x-large;
+    color:darkblue;
+    text-align:match-parent;
+}
+span2Head {
+    font-family:Arial;
+    font-size:x-large;
+    color:blue;
+    text-align:match-parent;
+}
 span3 {
+    font-family:Arial;
+    font-size:medium;
+    color:purple;
+}
+span3Small {
     font-family:Arial;
     font-size:medium;
     color:purple;
@@ -61,6 +78,14 @@ h2  {
     background-color:#00ff90;	
 	padding: 25px 10px;
 	text-align: center;
+    background-image:url("http://png.clipart.me/graphics/thumbs/859/seamless-ornamental-pattern-background-for-continuous-replicate-see-more-seamless-backgrounds-in-my-portfolio_85945375.jpg")
+}
+
+#projects
+{
+    background-color:#00ff90;   
+    padding: 25px 10px;
+    text-align: center;
     background-image:url("http://png.clipart.me/graphics/thumbs/859/seamless-ornamental-pattern-background-for-continuous-replicate-see-more-seamless-backgrounds-in-my-portfolio_85945375.jpg")
 }
 
